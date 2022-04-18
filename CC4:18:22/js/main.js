@@ -11,4 +11,4 @@ function rentalCarCost(d) {
     }
   }
 
-  //This did not work and I don't really know why
+  //This did not work and I don't really know why?
