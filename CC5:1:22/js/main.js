@@ -11,3 +11,9 @@ function isIsogram(str){
   }
 
 //   ok i had to look this one up and found the double for loop. but i nailed the placement of toLowerCase.
+
+// alternatively this would work
+
+function isIsogram(str){
+    return new Set(str.toUpperCase()).size == str.length;
+  }
