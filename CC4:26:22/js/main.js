@@ -1,7 +1,7 @@
 function descendingOrder(n){
-    //split string
+    //split() string
     //check for positive integers
-    //join string
+    //join()string
     return parseInt(String(n).split('').sort().reverse().join(''));
    }
   
